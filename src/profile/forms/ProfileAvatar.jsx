@@ -121,7 +121,7 @@ class ProfileAvatar extends React.Component {
         className="w-100 h-100 d-block rounded-circle overflow-hidden"
         style={{ objectFit: 'cover' }}
         alt={intl.formatMessage(messages['profile.image.alt.attribute'])}
-        src={avatar}
+        src={`url(${avatar})`}
       />
     );
   }
