@@ -7,6 +7,8 @@ import { ReactComponent as DefaultAvatar } from '../assets/avatar.svg';
 
 import messages from './ProfileAvatar.messages';
 
+import avatar from "./avatar.png";
+
 class ProfileAvatar extends React.Component {
   constructor(props) {
     super(props);
@@ -119,7 +121,7 @@ class ProfileAvatar extends React.Component {
         className="w-100 h-100 d-block rounded-circle overflow-hidden"
         style={{ objectFit: 'cover' }}
         alt={intl.formatMessage(messages['profile.image.alt.attribute'])}
-        src={this.props.src}
+        src={avatar}
       />
     );
   }
