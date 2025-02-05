@@ -283,32 +283,7 @@ class ProfilePage extends React.Component {
               />
             )}
           </div>
-          <div className="pt-md-3 col-md-8 col-lg-7 offset-lg-1">
-            {!this.isYOBDisabled() && this.renderAgeMessage()}
-            {isBioBlockVisible && (
-              <Bio
-                bio={bio}
-                visibilityBio={visibilityBio}
-                formId="bio"
-                {...commonFormProps}
-              />
-            )}
-            {getConfig().ENABLE_SKILLS_BUILDER_PROFILE && (
-              <LearningGoal
-                learningGoal={learningGoal}
-                visibilityLearningGoal={visibilityLearningGoal}
-                formId="learningGoal"
-                {...commonFormProps}
-              />
-            )}
-            {isCertificatesBlockVisible && (
-              <Certificates
-                visibilityCourseCertificates={visibilityCourseCertificates}
-                formId="certificates"
-                {...commonFormProps}
-              />
-            )}
-          </div>
+          
         </div>
       </div>
     );
