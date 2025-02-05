@@ -128,7 +128,7 @@ class ProfilePage extends React.Component {
         <h1 className="h2 mb-0 font-weight-bold text-truncate">{this.props.params.username}</h1>
         <DateJoined date={dateJoined} />
         {this.isYOBDisabled() && <UsernameDescription />}
-        <hr className="d-none d-md-block" />
+        
       </span>
     );
   }
