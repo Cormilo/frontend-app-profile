@@ -8,16 +8,7 @@ const DateJoined = ({ date }) => {
   }
 
   return (
-    <p className="mb-0">
-      <FormattedMessage
-        id="profile.datejoined.member.since"
-        defaultMessage="Member since {year}"
-        description="A label for how long the user has been a member"
-        values={{
-          year: <FormattedDate value={new Date(date)} year="numeric" />,
-        }}
-      />
-    </p>
+    ' '
   );
 };
 
