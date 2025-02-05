@@ -17,10 +17,11 @@
 }
 
 .profile-page-bg-banner {
+  width: 100vw; /* Растягивает фон на всю ширину экрана */
   height: 12rem;
   background-image: url('./assets/back.png');
   background-repeat: no-repeat;
-  background-size: auto 95%;
+  background-size: cover;
 }
 
 .username-description {
