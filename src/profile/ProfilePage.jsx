@@ -233,7 +233,7 @@ class ProfilePage extends React.Component {
           </div>
         </div>
         {this.renderPhotoUploadErrorMessage()}
-        <div className="row">
+        <div className="row" style={{ minHeight: '80vh' }}>
           <div className="col-md-4 col-lg-4">
             <div className="d-none d-md-block mb-4">
               {this.renderHeadingLockup()}
